@@ -16,7 +16,7 @@ Implemention of Drivable Surface Estimation, Lane estimation and 2D object and o
    DatasetHandler().segmentation: an image containing the output of a semantic segmentation neural network as the category per pixel.
    DatasetHandler().object_detection: a numpy array containing the output of an object detection network.
 
-- Output is as follows:
+- Output :
   1) Drivable surface plane parameters
   2) Lane boundary equations for the drivable surface
   3) minimum distance to the obstacles in 3D cordinates
@@ -44,5 +44,3 @@ Dependencies:
 - Jupyter Notebook
 - Python 3.5 or 3.6
 
-Running Autonomous Control:
-==========================
