@@ -12,8 +12,11 @@ Implemention of Drivable Surface Estimation, Lane estimation and 2D object and o
   The inputs are automatically imported and could be used through the following functions:
 
    DatasetHandler().rgb: a camera RGB image 
+   
    DatasetHandler().depth: a depth image containing the depth in meters for every pixel.
+   
    DatasetHandler().segmentation: an image containing the output of a semantic segmentation neural network as the category per pixel.
+   
    DatasetHandler().object_detection: a numpy array containing the output of an object detection network.
 
 - Output :
